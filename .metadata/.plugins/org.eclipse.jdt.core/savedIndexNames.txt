@@ -1,0 +1,18 @@
+INDEX VERSION 1.127+/Users/rvergis/Documents/github/puj16part2workspace/.metadata/.plugins/org.eclipse.jdt.core
+980729977.index
+87781039.index
+2357216627.index
+917086338.index
+2050508397.index
+2576982335.index
+78672028.index
+3543318020.index
+169016768.index
+3013380121.index
+1691158244.index
+972974187.index
+2071438840.index
+698525450.index
+4119751903.index
+4129510393.index
+4173171855.index

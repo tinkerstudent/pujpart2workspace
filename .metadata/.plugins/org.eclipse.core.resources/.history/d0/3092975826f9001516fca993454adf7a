@@ -1,0 +1,18 @@
+package com.tinkeracademy.projects;
+
+public class ChatClient {
+
+	public static void main(String[] args) {
+		ChatClient chatClient = new ChatClient();
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				chatClient.createAndShowGUI();
+			}
+		});
+	}
+
+	public void createAndShowGUI() {
+		Window.show();
+	}
+
+}

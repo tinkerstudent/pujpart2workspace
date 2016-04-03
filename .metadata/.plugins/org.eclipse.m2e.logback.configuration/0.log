@@ -1,0 +1,29 @@
+2016-04-02 21:35:02,345 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.appengine:appengine-helloworld:1.0-SNAPSHOT @ /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/pom.xml.
+2016-04-02 21:35:02,672 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /appengine-helloworld/src/main/java
+2016-04-02 21:35:02,672 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /appengine-helloworld/src/test/java
+2016-04-02 21:35:02,765 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2016-04-02 21:35:03,407 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:35:03,408 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/main/resources
+2016-04-02 21:35:03,411 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:35:03,411 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/test/resources
+2016-04-02 21:35:19,279 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.appengine:appengine-helloworld:1.0-SNAPSHOT @ /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/pom.xml.
+2016-04-02 21:35:19,323 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:35:19,323 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/main/resources
+2016-04-02 21:35:19,324 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:35:19,325 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/test/resources
+2016-04-02 21:35:20,595 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:35:20,596 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/main/resources
+2016-04-02 21:35:20,604 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:35:20,604 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/test/resources
+2016-04-02 21:36:16,542 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:36:16,543 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/main/resources
+2016-04-02 21:36:16,544 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:36:16,544 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/test/resources
+2016-04-02 21:36:18,916 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:36:18,918 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/main/resources
+2016-04-02 21:36:18,919 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:36:18,920 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/test/resources
+2016-04-02 21:36:20,453 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:36:20,454 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/main/resources
+2016-04-02 21:36:20,455 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-02 21:36:20,455 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rvergis/Documents/java-docs-samples/appengine/helloworld/src/test/resources

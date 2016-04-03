@@ -1,0 +1,32 @@
+package com.tinkeracademy.projects;
+
+public class Chat {
+
+	public static void main(String[] args) {
+		Chat ticTacToe = new Chat();
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				ticTacToe.createAndShowGUI();
+			}
+		});
+	}
+
+	public void createAndShowGUI() {
+		Window.show();
+		Window.addLabel("Chat Application Developed By: Tinker Academy v1.0");
+		String[][] controls = { { "", "", "" }, { "", "", "" }, { "", "", "" } };
+		buttonsList = new ArrayList<JButton>();
+		JButton[][] buttons = Window.addGridButtons(controls);
+		for (int i = 0; i < buttons.length; i++) {
+			for (int j = 0; j < buttons[i].length; j++) {
+				JButton button = buttons[i][j];
+				Font font = new Font(Font.SANS_SERIF, Font.PLAIN, 32);
+				button.setFont(font);
+				button.addActionListener(this);
+				buttonsList.add(button);
+			}
+		}
+		prepareNextGame();
+		nextMove = Move.X;
+	}
+}

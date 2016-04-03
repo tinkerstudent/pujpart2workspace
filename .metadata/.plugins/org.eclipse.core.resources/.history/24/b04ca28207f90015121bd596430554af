@@ -1,0 +1,32 @@
+package com.tinkeracademy.projects;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Chat {
+
+	public static Chat instance = new Chat();
+	
+	public static void main(String[] args) {
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				instance.createAndShowGUI();
+			}
+		});
+		instance.initialize();
+	}
+	
+	public static Chat getInstance() {
+		return instance;
+	}
+
+	public void createAndShowGUI() {
+		Window.show();
+		Window.addLabel("Chat Application Developed By: Tinker Academy v1.0");
+		Window.addTextArea("", 16, 10, false);
+		Window.addTextArea("", 4, 10, true);
+		Window.addButton("Send");
+	}
+	
+	
+}

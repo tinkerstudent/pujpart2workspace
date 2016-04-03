@@ -1,0 +1,40 @@
+package com.tinkeracademy.projects;
+
+import javax.swing.JButton;
+import javax.swing.JTextArea;
+
+public class ChatClient {
+
+	public static ChatClient chat;
+	
+	public static ChatService chatService;
+	
+	public JButton sendButton;
+	
+	public JTextArea chatHistory;
+	
+	public JTextArea chatMessage;
+	
+	public ChatClient() {
+		chatService = new ChatService();
+	}
+	
+	public static void main(String[] args) {
+		chat = new ChatClient();
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				chat.createAndShowGUI();
+			}
+		});
+		chatService.startService();
+	}
+	
+	public void createAndShowGUI() {
+		Window.show();
+		Window.addLabel("Chat Application Developed By: Tinker Academy v1.0");
+		chatHistory = Window.addTextArea("", 16, 10, false);
+		chatMessage = Window.addTextArea("", 4, 10, true);
+		sendButton = Window.addButton("Send");
+		sendButton.addActionListener(this);
+	}
+}

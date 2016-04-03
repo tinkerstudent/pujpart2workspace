@@ -1,0 +1,22 @@
+package com.tinkeracademy.projects;
+
+public class Chat {
+
+	public static void main(String[] args) {
+		Chat chat = new Chat();
+		javax.swing.SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				chat.createAndShowGUI();
+			}
+		});
+	}
+
+	public void createAndShowGUI() {
+		Window.show();
+		Window.addLabel("Chat Application Developed By: Tinker Academy v1.0");
+		Window.addTextArea("", 10, 10, false);
+		Window.addTextArea("", 5, 10, true);
+		Window.addButton("Send");
+		
+	}
+}
