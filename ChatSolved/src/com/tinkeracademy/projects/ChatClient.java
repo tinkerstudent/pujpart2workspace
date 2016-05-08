@@ -34,7 +34,6 @@ public class ChatClient implements ActionListener {
 				chat.createAndShowGUI();
 			}
 		});
-		chatService.startService();
 	}
 	
 	public void createAndShowGUI() {
@@ -44,13 +43,13 @@ public class ChatClient implements ActionListener {
 		chatMessage = Window.addTextArea("", 4, 10, true);
 		sendButton = Window.addButton("Send");
 		sendButton.addActionListener(this);
-		initStatus = chatService.initializeChatFile();
+		initStatus = chatService.initializeChatUserFile();
 		if (initStatus == ChatStatus.ERROR) {
-			showError();;
+			showError();
 		} else if (initStatus == ChatStatus.NO) {
 			promptChatUser();
 		} else if (initStatus == ChatStatus.YES) {
-			updateChatHistory();
+			initChatHistory();
 		}
 	}
 
@@ -102,11 +101,16 @@ public class ChatClient implements ActionListener {
 		clearChatMessage();
 	}
 	
+	public void initChatHistory() {
+		updateChatHistory();
+		chatService.startService();
+	}
+	
 	public void updateChatHistory() {
-		List<String> contents = chatService.getChatFileContents();
-		if (contents != null) {
+		List<String> chatLines = chatService.getChatHistory();
+		if (chatLines != null) {
 			StringBuffer buf = new StringBuffer();
-			for (String str : contents) {
+			for (String str : chatLines) {
 				buf.append(str);
 				buf.append('\n');
 			}
